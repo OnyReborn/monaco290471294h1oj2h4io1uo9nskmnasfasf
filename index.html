@@ -20,7 +20,10 @@
             monaco.editor.create(document.getElementById('container'), {
                 value: "// Your code here\n",
                 language: 'python',
-                theme: 'vs-dark'
+                theme: 'vs-dark',
+                minimap: {
+                    enabled: false 
+                }
             });
         });
     </script>
